@@ -1,0 +1,26 @@
+{
+  "name": "backend_learning",
+  "version": "1.0.0",
+  "description": "This is all about backend journey",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "userDefinedScript": "echo start and test are in_built/default scripts and can be executed without run command"
+  },
+  "keywords": [
+    "FIND"
+  ],
+  "author": "DEVLOPER_ARBAZ",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemailer": "^6.9.16"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
