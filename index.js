@@ -26,7 +26,7 @@ app.post('/contact', async (req, res) => {
     },
   });
 
-  const toOwner = `naumanms2006@gmail.com`;
+  const toOwner = `sayyedarbaz956@gmail.com`;
 
   const mailOptions = {
     from: process.env.EMAIL,
