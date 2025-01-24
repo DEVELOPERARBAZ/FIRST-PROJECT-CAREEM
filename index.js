@@ -39,7 +39,7 @@ app.post('/contact', async (req, res) => {
 
     const mailOptions = {
       from: process.env.EMAIL,
-      to: process.env.RECIPIENT_EMAIL || 'sayyedarbaz956@gmail.com', // Use env variable for flexibility
+      to: process.env.RECIPIENT_EMAIL || 'careemgroup97@gmail.com', // Use env variable for flexibility
       subject: 'Alhamdulillah New Form Submitted',
       text: `Name: ${name}\nEmail: ${email}\nNumber: ${number}\nLocation: ${location}\nMessage: ${message}`,
       html: `
