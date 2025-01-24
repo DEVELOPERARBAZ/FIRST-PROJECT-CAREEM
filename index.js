@@ -82,7 +82,7 @@ app.get('/developerAdmin', (req, res) => {
   res.send(`
     <html>
       <head>
-        <title>Admin - User Details</title>
+        <title>Admin - User Details thanks</title>
         <style>
           table {
             width: 80%;
